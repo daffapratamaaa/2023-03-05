@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='UTF-8'/>
+    <meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5' name='viewport'/>
+    <meta content='IE=edge' http-equiv='X-UA-Compatible'/>
+    <meta content='rgba(156,108,255,1), rgba(250,135,255,1)' name='theme-color' />
+    <meta content='rgba(156,108,255,1), rgba(250,135,255,1)' name='msapplication-navbutton-color' />
+    <meta content='rgba(156,108,255,1), rgba(250,135,255,1)' name='apple-mobile-web-app-status-bar-style' />
+    <meta content='yes' name='apple-mobile-web-app-capable' />
+    
+    <title>Edit kata-kata sesuka hatimu!</title>
+ 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="https://lh5.googleusercontent.com/p/AF1QipPLTXg_zAogQkFrp0hS1YOMbNle-C-aLYJTDgyZ=w720-h720-p-k-no">
+    <!--Stylesheet-->
+    <style media="screen">
+    *,*:before,*:after{padding: 0;margin: 0;box-sizing: border-box;}
+    a{text-decoration:none}
+    body::after{content:"\00A9  www.daffa-pratama.my.id";font-family:Poppins,sans-serif;right:25px;bottom:25px}
+    /*body::before{content:"IG: @daffapratamanurardiansyah";left:25px;bottom:25px}*/
+    body::before, body::after{position:fixed;color:yellow;opacity:.5;font-size:12px;z-index:999}
+    .background{height:520px;position:absolute;transform:translate(-50%,-50%);top:50%;left:50%}
+    form h3,label{font-weight:500}input,label{display:block}*,:after,:before{padding:0;margin:0;box-sizing:border-box}
+    label{margin-top:30px}
+    body{background: rgb(81,172,255);background: linear-gradient(90deg, rgba(81,182,255,1) 0%, rgba(156,75,255,1) 50%, rgba(250,75,255,1) 100%);}
+    /*.background{max-width:330px}.background .shape{height:200px;width:200px;position:absolute;border-radius:50%}*/
+    .shape:first-child{background:linear-gradient(#1845ad,#23a2f6);left:-20px;top:-50px}
+    .shape:last-child{background:linear-gradient(#1845ad,#23a2f6);right:-20px;bottom:-50px}
+    form{background-color:rgba(0,0,0,0.2);max-width:400px;margin-top:auto;margin-bottom:auto;margin-left:auto;margin-right:auto;border-radius:auto;backdrop-filter:blur(10px);border:2px solid rgba(255,255,255,.1);/*box-shadow:0 0 40px rgba(8,7,16,.6);*/padding:50px 35px}
+    form *{font-family:Poppins,sans-serif;color:#fff;letter-spacing:.5px;outline:0;border:none}
+    .social div,input,textarea{border-radius:3px}form h3{font-size:32px;line-height:42px;}
+    form h3, form p{text-align:center}label{font-size:16px}
+    form p{margin-top:15px;font-size:13px} form p a{color: yellow}
+    input,textarea{height:50px;width:100%;background-color:rgba(0,0,0,.1);padding:0 10px;margin-top:8px;font-size:14px;font-weight:300}::placeholder{color:#e5e5e5}
+    textarea{resize:none;padding:10px;height:200px}
+    button{margin-top:30px;margin-bottom:25px;width:100%;background-color:#b621fe;color:#fff;padding:15px 0;font-size:18px;font-weight:600;border-radius:5px;cursor:pointer}
+    .social{display:flex}
+    .social div{background:rgba(255,255,255,.27);width:150px;padding:5px 10px 10px 5px;color:#eaf0fb;text-align:center}
+    .social div:hover{background-color:rgba(255,255,255,.47)}
+    .social .fb{margin-left:25px}.social i{margin-right:4px}
+    </style>
+</head>
+<body>
+    <div class="background">
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+    <form id="form">
+        <h3>Custom<br>hii ayaangggg maaf yaa kalo aku suka bkin kamu kesel</h3>
+        <p>Edit kata-kata sesuka hatimu!</p>
+        <p><a href="https://daffapratamaaa.github.io/2023-03-05/hii-ayaangggg-maaf-yaa-kalo-aku-suka-bkin-kamu-kesel.html" target="_blank">Lihat demo</a> -- | -- <a href="https://api.whatsapp.com/send?phone=6283138124986&text=Halo, saya ingin bertanya" target="_blank">Tanya WA</a></p>
+
+        <label for="Pertama">Pesan Pertama</label>
+        <input type="text" placeholder="hii ayaangggg" id="Pertama" name="Pertama">
+
+        <label for="Kedua">Pesan Kedua</label>
+        <input type="text" placeholder="maaf yaa kalo aku suka bkin kamu kesel" id="Kedua" name="Kedua">
+
+        <label for="Ketiga">Pesan Ketiga</label>
+        <input type="text" placeholder="aku cuma mau bilang" id="Ketiga" name="Ketiga">
+
+        <label for="Keempat">Pesan Keempat</label>
+        <input type="text" placeholder="pncet ini dlu ya 👉💌" id="Keempat" name="Keempat">
+
+        <label for="Pesan">Pesan Ngetik (Akhir)</label>
+        <textarea placeholder="maaf ya aku belum bisa jadi yang terbaik buat kamu, aku juga gabisa sepenuhnya ngertiin gimana cara kamu ingin dicintai, aku terlalu banyak kurangnya buat cewe secantik kamu, tapi aku akan terus berusaha yang terbaik buat kamu hehe.." id="Pesan" name="Pesan"></textarea>
+
+        <label for="PesanAkhir">Pesan Akhir</label>
+        <input type="text" placeholder="stay with me. i love uu 🤍" id="PesanAkhir" name="PesanAkhir">
+      
+        <button>Submit</button>
+      
+        <div class="social" id="bawah">
+          <div class="go"><a id="bagikan" href=""><i class="fas fa-share"></i>  Bagikan</a></div>
+          <div class="fb"><a id="lihat" href="" target="_blank"><i class="fas fa-paper-plane"></i>  Lihat Hasil</a></div>
+        </div>
+    </form>
+<script>
+  var phPertama = document.getElementById ("Pertama").placeholder;
+  var phKedua = document.getElementById ("Kedua").placeholder;
+  var phKetiga = document.getElementById ("Ketiga").placeholder;
+  var phKeempat = document.getElementById ("Keempat").placeholder;
+  var phPesan = document.getElementById ("Pesan").placeholder;
+  var phPesanAkhir = document.getElementById ("PesanAkhir").placeholder;
+  
+  var urlParams = new URLSearchParams(window.location.search);
+  var Pertama = urlParams.get('Pertama') || phPertama;
+  var Kedua = urlParams.get('Kedua') || phKedua;
+  var Ketiga = urlParams.get('Ketiga') || phKetiga;
+  var Keempat = urlParams.get('Keempat') || phKeempat;
+  var Pesan = urlParams.get('Pesan') || phPesan;
+  var PesanAkhir = urlParams.get('PesanAkhir') || phPesanAkhir;
+
+  // Cek apakah nilai input bukan default dan tidak sama dengan nilai variabel, jika ya maka tidak perlu diubah
+  if (Pertama !== phPertama){
+    document.getElementById('Pertama').value = Pertama;
+  }
+  if (Kedua !== phKedua){
+    document.getElementById('Kedua').value = Kedua;
+  }
+  if (Ketiga !== phKetiga){
+    document.getElementById('Ketiga').value = Ketiga;
+  }
+  if (Keempat !== phKeempat){
+    document.getElementById('Keempat').value = Keempat;
+  }
+  if (Pesan !== phPesan){
+    document.getElementById('Pesan').value = Pesan;
+  }
+  if (PesanAkhir !== phPesanAkhir){
+    document.getElementById('PesanAkhir').value = PesanAkhir;
+  }
+
+  // Fungsi untuk menambahkan variabel pada URL
+			function tambahVariabel() {
+				// Ambil nilai dari input teks, nama, dan alamat
+				var Pertama = document.getElementById('Pertama').value;
+				var Kedua = document.getElementById('Kedua').value;
+				var Ketiga = document.getElementById('Ketiga').value;
+        var Keempat = document.getElementById('Keempat').value;
+        var Pesan = document.getElementById('Pesan').value;
+        var PesanAkhir = document.getElementById('PesanAkhir').value;
+				
+				// Buat URL dengan variabel yang ditambahkan window.location.href.split('?')[0]
+        var linkUtama = "https://daffapratamaaa.github.io/2023-03-05/hii-ayaangggg-maaf-yaa-kalo-aku-suka-bkin-kamu-kesel.html"
+				var url = linkUtama + '?Pertama=' + encodeURIComponent(Pertama) + '&Kedua=' + encodeURIComponent(Kedua) + '&Ketiga=' + encodeURIComponent(Ketiga) + '&Keempat=' + encodeURIComponent(Keempat) + '&Pesan=' + encodeURIComponent(Pesan) + '&PesanAkhir=' + encodeURIComponent(PesanAkhir);
+        var urlSave = window.location.href.split('?')[0] + '?Pertama=' + encodeURIComponent(Pertama) + '&Kedua=' + encodeURIComponent(Kedua) + '&Ketiga=' + encodeURIComponent(Ketiga) + '&Keempat=' + encodeURIComponent(Keempat) + '&Pesan=' + encodeURIComponent(Pesan) + '&PesanAkhir=' + encodeURIComponent(PesanAkhir);
+
+        
+			// Menampilkan link hasil
+			//document.getElementById("hasil").innerHTML = "<a href='" + url + "'>Lihat hasil</a>";
+
+        // Cek apakah semua masih default
+        if (Pertama === '' && Kedua === '' && Ketiga === '' && Keempat === '' && Pesan === '' && PesanAkhir === ''){
+          bawah.style="display:none";
+        } else {
+          lihat.href=url;
+          bawah.style="display:flex";
+          alert('Berhasil! Silakan klik Lihat Hasil!');
+        }
+    
+				// Redirect ke URL yang baru
+				window.location.href = urlSave;
+			}
+			
+			// Fungsi untuk submit form ketika tombol "Submit" ditekan
+			function submitForm(event) {
+				event.preventDefault(); // Menghentikan form untuk melakukan submit secara default
+				tambahVariabel(); // Panggil fungsi tambahVariabel untuk menambahkan variabel pada URL
+			}
+			
+			// Event listener untuk menangani submit form ketika tombol "Submit" ditekan
+			document.getElementById('form').addEventListener('submit', submitForm);
+
+
+  // Buat URL dengan variabel yang ditambahkan
+	//var url = window.location.href.split('?')[0] + '?Pertama=' + encodeURIComponent(Pertama) + '&Kedua=' + encodeURIComponent(Kedua) + '&Ketiga=' + encodeURIComponent(Ketiga) + '&Keempat=' + encodeURIComponent(Keempat) + '&Pesan=' + encodeURIComponent(Pesan);
+
+// Share must be triggered by "user activation"
+bagikan.addEventListener('click', event => {
+  if (navigator.share) {
+    navigator.share({
+      title: 'Script HTML Bucin buat Kamu',
+      url: '' + url
+    }).then(() => {
+      console.log('Thanks for sharing!');
+    })
+    .catch(console.error);
+  } else {
+    //shareDialog.classList.add('is-open');
+  }
+});
+  
+  // Cek apakah semua masih default
+  if (Pertama === phPertama && Kedua === phKedua && Ketiga === phKetiga && Keempat === phKeempat && Pesan === phPesan && PesanAkhir === phPesanAkhir){
+    bawah.style="display:none";
+  } else {
+    //url = window.location.href;
+    var linkUtama = "https://daffapratamaaa.github.io/2023-03-05/hii-ayaangggg-maaf-yaa-kalo-aku-suka-bkin-kamu-kesel.html"
+		var url = linkUtama + '?Pertama=' + encodeURIComponent(Pertama) + '&Kedua=' + encodeURIComponent(Kedua) + '&Ketiga=' + encodeURIComponent(Ketiga) + '&Keempat=' + encodeURIComponent(Keempat) + '&Pesan=' + encodeURIComponent(Pesan) + '&PesanAkhir=' + encodeURIComponent(PesanAkhir);
+    lihat.href=url;
+  }
+</script>
+</body>
+</html>
